@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <header><% include ./partials/_header %></header>
+    <ul>
+        <% for ( var objkey in urls ) { %> 
+        <li><%=[objkey]%> : <%=urls[objkey]%> </li>
+        <% } %>
+        <li><a href="https://www.iflscience.com" target="_blank">future link for shortening URL</a> </li>
+    </ul>
+    </body>
+</html>
