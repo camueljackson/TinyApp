@@ -16,7 +16,7 @@ var urlDatabase = {
 };
 
 app.get("/", (req, res) => {
-  res.end("Hello!");
+  res.render("urls_home")
 });
 
 app.get("/urls", (req, res) => {
